@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Wextern -g -pthread
+CFLAGS = -Wall -Wextra -g -pthread
 INCLUDES = -I./include
 SRCS = src/main.c src/host.c src/controller.c
 OBJS = $(SRCS:.c=.o)
